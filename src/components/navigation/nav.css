@@ -1,0 +1,32 @@
+.header_logo-img{
+    width: 100px;
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.navbar_list-item{
+    margin-left: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey, 
+    3px 3px 5px #FF6584; 
+}
+.navbar_list-itemLink{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}

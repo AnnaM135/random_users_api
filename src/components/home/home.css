@@ -1,0 +1,52 @@
+.homepage{
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.main_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.main_content > div{
+    width: 400px;
+    height: 400px;
+}
+
+.main_content-title{
+    font-size: 52px;
+    color: #2F2E41;
+}
+.main_content-text {
+    color: #2F2E41;
+    cursor: pointer;
+}
+
+.main_content-btn{
+    padding: 12px 60px;
+    border-radius: 20px;
+    outline:none;
+    border: none;
+    color: white;
+    background-color: #00BFA6;
+}
+
+.main_content-img{
+    width: 400px;
+    height: 400px;
+}
+
+.contacts > i{
+    margin: 20px 20px;
+    font-size: 24px;
+    color: #2F2E41;
+}
