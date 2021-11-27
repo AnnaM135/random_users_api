@@ -1,14 +1,29 @@
+.userspage{
+    background-color: white;
+    min-height: 100vh;
+}
+
+.user_container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
 .cards{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1200px;
+    width: 1400px;
 }
 
 .cards_box{
-    background-color: #00BFA6;
-    width: 270px;
-    height: 500px;
+    width: 320px;
+    min-height: 400px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
 }
 
 .cards_box-img{
@@ -17,4 +32,43 @@
     border-radius: 100%;
     width: 200px;
     height: 200px;
+}
+
+.cards_box-icons{
+    padding: 10px;
+    background-color: #FF6584;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    margin: 0 38px;
+}
+
+
+.paginationBttns{
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover{
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationActive a{
+    color: white;
+    background-color: #2b2eff;
 }
